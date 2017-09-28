@@ -1,5 +1,5 @@
 var MainController = function($scope, $log) {
-  this.count = 0;
+  this.count = 5;
   this.name1 = "AngularJS!";
   this.increment = function increment() {
     this.count++;

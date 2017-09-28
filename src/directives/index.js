@@ -1,12 +1,12 @@
 import angular from 'angular';
-//import counter from './counter.directive.js';
+import counter from './counter.directive.js';
 
 
 // our component module
 const ComponentsModule = angular
-  .module('app-components', [
+  .module('app-directives', [
   ])
- // .directive('counter', counter)
+  .directive('counter', counter)
   .name;
 
 export default ComponentsModule;

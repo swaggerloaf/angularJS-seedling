@@ -4,15 +4,15 @@ const counter = function() {
     // directive does not create new scope so no inheritence going on`
     template: `
       <div class="card">
-        <h3 class="card-title">Counter wanna: {{counter.count}} </h3>
+        <h3 class="card-title">Counter wanna: {{main.count}} </h3>
       </div>
-      {{counter.name1}}
+      {{main.name1}}
       <div>
       &nbsp;&nbsp;&nbsp;
-			<a class="counter__increment" href="" ng-click="counter.increment()">
-				Increment Counter
+			<a class="counter__increment" href="" ng-click="main.increment()">
+				Increment main
 			</a>
-			<a class="counter__decrement" href="" ng-click="counter.decrement()">
+			<a class="counter__decrement" href="" ng-click="main.decrement()">
 				Decrement Counter
       </a>
       </div>
