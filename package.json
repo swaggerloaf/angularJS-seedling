@@ -18,8 +18,8 @@
     "font-awesome":"4.7.0"
   },
   "devDependencies": {
-    "@types/lodash":"4.14.74",
-    "@types/angular":"1.6.42",
+    "@types/lodash":"^4.14.104",
+    "@types/angular":"^1.6.42",
     "async":"2.6.0",
     "babel-cli": "6.26.0",
     "babel-code-frame":"6.26.0",
@@ -47,11 +47,11 @@
     "babel-plugin-transform-es3-property-literals": "^6.22.0",
     "babel-plugin-transform-object-rest-spread": "^6.26.0",
     "babel-preset-env": "1.6.1",
-    "babel-loader": "7.1.2",
+    "babel-loader": "^7.1.3",
     "html-loader": "^0.5.5",
-    "style-loader": "0.20.1",
-    "css-loader": "0.28.9",
-    "file-loader":"^1.1.6",
+    "style-loader": "0.20.2",
+    "css-loader": "0.28.10",
+    "file-loader":"^1.1.10",
     "url-loader":"^0.6.2",
     "browser-sync": "^2.23.6",
     "browser-sync-webpack-plugin": "2.0.1",
@@ -60,7 +60,7 @@
     "html-webpack-plugin": "^2.30.1",
     "webpack-dev-server": "^2.11.1",
     "webpack-stream": "^4.0.1",
-    "eslint": "^4.17.0"
+    "eslint": "^4.18.1"
   },
   "keywords": [
     "babel",
