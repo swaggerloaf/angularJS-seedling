@@ -1,5 +1,5 @@
 import angular from 'angular';
-import parkApp from './app.module';
+import AppModule from './app.module';
 
 // here we bootstrap our application
-angular.bootstrap(document.documentElement, [parkApp]);
+angular.bootstrap(document.documentElement, [AppModule]);
