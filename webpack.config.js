@@ -14,11 +14,11 @@ const publicUrl = '';
 
 module.exports = {
     // starting point
-    entry: "./src/index.js",
+    entry: "./app/index.js",
     output: {
         path: path.join(__dirname, "./dist"),
         filename: "bundle.js",
-        publicPath:'/dist'
+        //publicPath:'/dist'
     },
     module: {
       rules: [
@@ -42,5 +42,10 @@ module.exports = {
         proxy: 'http://localhost:8080/'
     })
     ],
-    devtool: "source-map"
+    devtool: "source-map",
+    devServer: {
+    historyApiFallback: true,
+    hot: false,
+    port: 8080
+  }
 }
