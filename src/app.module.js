@@ -12,7 +12,7 @@ const AppModule = angular
     ControllerModule
   ])
   .run(function() { // instance-injector
-    console.log('Angular baby ' + angular.version.full);
+    console.log('Angular version ' + angular.version.full);
   })
   .name;
 

@@ -1,14 +1,14 @@
-var MainController = function($scope, $log) {
-  this.count = 5;
-  this.name1 = "AngularJS!";
-  this.increment = function increment() {
-    this.count++;
+const MainController = function($scope, $log) {
+  $scope.count = 5;
+
+  $scope.increment = function increment() {
+    $scope.count++;
   };
-  this.decrement = function decrement() {
-    this.count--;
+  $scope.decrement = function decrement() {
+    $scope.count--;
   };
 
-//  $scope.$watch('count', );
+
 };
 
 MainController.$inject = ['$scope', '$log'];
