@@ -17,9 +17,10 @@
     "angularjs-toaster":"2.2.0",
     "bs-modal":"^1.0.5",
     "font-awesome":"4.7.0",
-    "respond":"0.9.0",
     "jquery": "1.12.4",
-    "jquery-ui":"1.12.1"
+    "jquery-ui":"1.12.1",
+    "redux":"^3.7.2",
+    "ng-redux":"^4.0.1"
   },
   "devDependencies": {
     "@types/angular":"^1.6.42",
