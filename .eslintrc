@@ -42,7 +42,6 @@
     "wrap-iife": [1, "outside"],
     "yoda": [1, "never"],
 
-    //ES6 Stuff
     "arrow-parens": 1,
     "arrow-spacing": 1,
     "constructor-super": 1,

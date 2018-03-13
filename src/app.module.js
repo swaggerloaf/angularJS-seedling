@@ -11,9 +11,9 @@ const AppModule = angular
     DirectivesModule,
     ControllerModule
   ])
-  .run(function() { // instance-injector
-    console.log('Angular version ' + angular.version.full);
-  })
+  .run( () =>  // instance-injector
+    console.log('Angular version ' + angular.version.full)
+  )
   .name;
 
 export default AppModule;
