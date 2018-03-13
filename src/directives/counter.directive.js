@@ -1,4 +1,4 @@
-const counter = function() {
+const counter = () => {
   return {
     scope: null,
     // directive does not create new scope so no inheritence going on`
