@@ -1,10 +1,11 @@
 const counter = () => {
   return {
     scope: null,
+
     // directive does not create new scope so no inheritence going on`
     template: `
       <div class="card">
-        <h3 class="card-title">Counter wanna: {{count}} </h3>
+        <h3 class="card-title">Counter: {{count}} </h3>
       </div>
       <div>
       &nbsp;&nbsp;&nbsp;

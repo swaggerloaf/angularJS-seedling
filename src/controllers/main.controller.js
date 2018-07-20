@@ -1,4 +1,4 @@
-const MainController = function($scope, $log) {
+const MainController = function($scope) {
   $scope.count = 5;
 
   $scope.increment = function increment() {
@@ -11,6 +11,6 @@ const MainController = function($scope, $log) {
 
 };
 
-MainController.$inject = ['$scope', '$log'];
+MainController.$inject = ['$scope'];
 
 export default MainController;
