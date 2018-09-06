@@ -7,12 +7,16 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
   <title>AngularJS Seedling</title>
+  <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css"/>
 </head>
 
 <body>
-  <div ng-controller="MainController" ng-cloak>
-    <counter count="count"></counter>
+  <div class="container">
+    <div ng-controller="MainController" ng-cloak>
+      <counter count="count"></counter>
+    </div>
   </div>
+  <script src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
   <script type='text/javascript' src="dist/bundle.js"></script>
 </body>
 

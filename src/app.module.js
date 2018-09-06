@@ -1,13 +1,12 @@
 // app.js
 import angular from 'angular';
+import  button from '../node_modules/angular-ui-bootstrap/src/buttons/index.js';
 
-//import ComponentsModule from './components/index.js';
 import CounterModule from './counter/index.js';
-
 
 // our root module
 const AppModule = angular
-  .module('parkApp', [
+  .module('parkApp', [ button,
     CounterModule
   ])
   .run( () =>  // instance-injector
