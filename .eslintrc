@@ -52,6 +52,7 @@
     "no-var": 1,
     "object-shorthand": 1,
     "prefer-arrow-callback": 1,
-    "prefer-const": 1
+    "prefer-const": 1,
+    "eslint.packageManager": "yarn"
   }
 }

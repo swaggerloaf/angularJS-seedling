@@ -1,10 +1,12 @@
 import angular from 'angular';
 import MainController from './main.controller.js';
+import counter from './counter.directive.js';
 
 // our common module
-const ControllerModule = angular
+const CounterModule = angular
   .module('app-controllers', [])
   .controller('MainController', MainController)
+  .directive('counter', counter)
   .name;
 
-export default ControllerModule;
+export default CounterModule;
