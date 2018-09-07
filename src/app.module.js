@@ -1,6 +1,6 @@
 // app.js
 import angular from 'angular';
-import  button from '../node_modules/angular-ui-bootstrap/src/buttons/index.js';
+import  button from '../node_modules/angular-ui-bootstrap/src/buttons/index';
 
 import CounterModule from './counter/index.js';
 
