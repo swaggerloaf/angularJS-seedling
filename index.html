@@ -15,6 +15,14 @@
     <div ng-controller="MainController" ng-cloak>
       <counter count="count"></counter>
     </div>
+    <br>
+    <h4>Single toggle</h4>
+    <pre>{{singleModel}}</pre>
+    <button type="button" class="btn btn-primary" ng-model="singleModel" uib-btn-checkbox btn-checkbox-true="1" btn-checkbox-false="0">
+        Single Toggle
+    </button>
+
+
   </div>
 
   <script src="node_modules/jquery/dist/jquery.min.js"></script>
