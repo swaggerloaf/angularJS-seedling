@@ -6,7 +6,9 @@
   "scripts": {
     "start": "node_modules/.bin/webpack-dev-server",
     "build": "node_modules/.bin/webpack --progress",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "pretest": "yarn install",
+    "test": "karma start karma.conf.js",
+    "test-single-run": "karma start karma.conf.js --single-run"
   },
   "license": "MIT",
   "repository": "https://github.com/swaggerloaf/angularJS-seedling",
@@ -34,15 +36,22 @@
     "browser-sync": "^2.24.7",
     "browser-sync-webpack-plugin": "2.2.2",
     "css-loader": "1.0.0",
-    "eslint": "^5.5.0",
+    "eslint": "^5.6.0",
     "file-loader": "2.0.0",
     "html-loader": "^0.5.5",
-    "prettier": "^1.14.2",
+    "prettier": "^1.14.3",
     "style-loader": "0.23.0",
     "url-loader": "1.1.1",
-    "webpack": "4.17.2",
-    "webpack-cli": "^3.1.0",
-    "webpack-dev-server": "^3.1.8"
+    "webpack": "4.20.2",
+    "webpack-cli": "^3.1.1",
+    "webpack-dev-server": "^3.1.9",
+    "karma":"3.0.0",
+    "protractor":"5.4.1",
+    "http-server": "^0.11.1",
+    "jasmine-core": "^3.2.1",
+    "karma-chrome-launcher": "^2.2.0",
+    "karma-jasmine": "^1.1.2",
+    "jasmine":"3.2.0"
   },
   "keywords": [
     "babel",
