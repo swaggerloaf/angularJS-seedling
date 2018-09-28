@@ -1,4 +1,4 @@
-const count = function() {
+const counter = function() {
   return {
     templateUrl: '/src/counter/counter.directive.html'
   };
@@ -6,4 +6,4 @@ const count = function() {
 
 };
 
-export default count;
+export default counter;

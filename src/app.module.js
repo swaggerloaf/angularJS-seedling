@@ -2,7 +2,6 @@
 import angular from 'angular';
 import  button from '../node_modules/angular-ui-bootstrap/src/buttons/index';
 import MainController from './main.controller';
-import parkWorkerInfo from './park-worker-info/park-worker-info';
 import CounterModule from './counter/index.js';
 
 // our root module
@@ -11,7 +10,6 @@ const AppModule = angular
     CounterModule
   ])
   .controller('MainController', MainController)
-  .directive('parkWorkerInfo', parkWorkerInfo)
   .run( () =>  // instance-injector
     console.log('Angular version ' + angular.version.full)
   )

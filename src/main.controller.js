@@ -1,5 +1,5 @@
 const MainController = function($scope) {
-  $scope.count = 5;
+  $scope.count = 0;
   $scope.singleModel = 1;
 
 
