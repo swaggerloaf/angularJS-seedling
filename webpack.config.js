@@ -1,8 +1,5 @@
 const path = require('path');
-
-//const HtmlWebpackPlugin = require('html-webpack-plugin');
 const webpack = require('webpack');
-var BrowserSyncPlugin = require('browser-sync-webpack-plugin')
 
 // Webpack uses `publicPath` to determine where the app is being served from.
 // In development, we always serve from the root. This makes config easier.
@@ -42,11 +39,6 @@ module.exports = {
   },
   context: __dirname,
   plugins: [
-    new BrowserSyncPlugin({
-      host: 'localhost',
-      port: 3000,
-      proxy: 'http://localhost:8080/'
-    })
   ],
   devtool: "source-map",
   devServer: {
