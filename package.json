@@ -38,7 +38,7 @@
     "css-loader": "1.0.0",
     "eslint": "^5.7.0",
     "file-loader": "2.0.0",
-    "htmloader": "^0.5.5",
+    "html-loader": "^0.5.5",
     "prettier": "^1.14.3",
     "style-loader": "0.23.1",
     "url-loader": "1.1.2",
