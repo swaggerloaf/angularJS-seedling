@@ -14,19 +14,12 @@
       rel="stylesheet"
       href="node_modules/bootstrap/dist/css/bootstrap.css"
     />
+    <link rel="stylesheet" href="styles.css" />
   </head>
 
   <body>
-    <div class="container">
-      <div ng-controller="MainController" ng-cloak>
-        <counter count="count"></counter>
-      </div>
-      <br />
-      <h4>Single toggle</h4>
-      <pre>{{ singleModel }}</pre>
-      <a href="#" class="btn btn-primary" ng-model="singleModel">
-        Single Toggle
-      </a>
+    <div class="container-fluid">
+      <todo-list></todo-list>
     </div>
 
     <script src="node_modules/jquery/dist/jquery.min.js"></script>
