@@ -1,7 +1,3 @@
-body {
-  background-color: fuchsia;
-}
-
 .todo-completed {
   text-decoration: line-through;
 }
